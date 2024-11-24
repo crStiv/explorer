@@ -172,7 +172,7 @@ const TABS_LOOKUP: { [id: string]: Tab[] } = {
     ],
 };
 
-const TOKEN_TABS_HIDDEN = ['spl-token:mint', 'spl-token-2022:mint', 'config', 'vote', 'sysvar', 'config'];
+const TOKEN_TABS_HIDDEN = ['spl-token:mint', 'spl-token-2022:mint', 'config', 'vote', 'sysvar'];
 
 type Props = PropsWithChildren<{ params: { address: string } }>;
 
